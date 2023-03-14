@@ -2,10 +2,12 @@
 440 Course Project
 READ ME file
 
-<b> Overview </b>
+<u> Overview </u>
+
 This repository contains the data, analysis code, and figures for our project. The data is bulk RNA seq data published from Acosta-Rodriguez et al., (doi: 10.1126/science.abk0297) which has already been normalized to reads per kilobase per million (RPKM). The analysis includes Python (and eventually R) scripts for analyzing the published data. 
 
 Data
+
 The data provided is from doi: 10.1126/science.abk0297. In this paper, authors sought to break down the independent effects of calorie restriction, time restricted feeding, and circadian feeding. They used a mouse model with automatic feeding schedules, and broke the mice up into 6 groups:
 1.	Ad libitum: mice had unlimited access to food
 2.	Calorie restriction, spread: mice were provided 30% fewer calories than the ad libitum group, but were able to eat across a 24 hour period.
