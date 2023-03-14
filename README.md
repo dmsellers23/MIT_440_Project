@@ -2,7 +2,7 @@
 440 Course Project
 READ ME file
 
-Overview
+<b> Overview </b>
 This repository contains the data, analysis code, and figures for our project. The data is bulk RNA seq data published from Acosta-Rodriguez et al., (doi: 10.1126/science.abk0297) which has already been normalized to reads per kilobase per million (RPKM). The analysis includes Python (and eventually R) scripts for analyzing the published data. 
 
 Data
