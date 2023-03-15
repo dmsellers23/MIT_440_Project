@@ -21,12 +21,12 @@ The "Data" folder contains all of the raw data files. The data files provided ar
 
 The "Code" folder contains the code for analyzing the data. 
 
-The "Figures" folder contains the figures generated for this project. So far, only one figure has been generated which comes from the Project_analysis.py file in the  Code folder.
+The "Figures" folder contains the figures generated for this project. So far, only one figure has been generated which comes from the Project_analysis.py file in the  "Code" folder.
 
 
 ### Installation
 In order to run the code:
-1. Download the .py file
+1. Download the Project_analysis.py file from the "Code" folder
 2. Make sure that you have pandas, numpy, and matplotlib packages installed
-3. Download the input data file (RNAseq_Dataframe_Input) and make sure the file path in the code matches where the input data file is saved
+3. Download the input data file (RNAseq_Dataframe_Input) from the "Data" folder and make sure the file path in the code matches where the input data file is saved
 4. Run the code!
