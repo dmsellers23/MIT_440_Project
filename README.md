@@ -2,7 +2,7 @@
 
 ### Overview
 
-This repository contains the data, code for analysis, and figures for my MIT course 20.440 project. The data is bulk RNA seq data published from Acosta-Rodriguez et al., (doi: 10.1126/science.abk0297) which has already been normalized to reads per kilobase per million (RPKM). The analysis includes Python (and eventually R) scripts for analyzing the published data. The data and code here will be used to look further into how eating time affects gene expression in old and young mice. 
+This repository contains the data, code for analysis, and figures for my MIT course 20.440 project. The data is bulk RNA seq data published from Acosta-Rodriguez et al., (doi: 10.1126/science.abk0297). Both the raw and RPKM normalized counts were posted in the Scripts_and_Inputs folder. The analysis includes Python (and eventually R) scripts for analyzing the published data. The data and code here will be used to look further into how eating time affects gene expression in old and young mice. 
 
 ### Data
 
