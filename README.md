@@ -17,16 +17,10 @@ The authors harvested liver tissue from 2 mice in each group at young and old ag
 
 ### Folder Structure
 
-The "Data" folder contains all of the raw data files. The data files provided are the raw counts, the normalized counts (normalized to RPKM), and the input data file for running the code. Use the RNAseq_Dataframe_Input file to run the code.
+The "Scripts_and_Inputs" folder contains all of the raw data files. The data files provided are the raw counts (starts with GE_RawData), the normalized counts (normalized to RPKM), and the column headers (starts with ColData) for DESeq2. This folder also contains the scripts for running differential expression analysis (DiffExp_Analysis_R.R) and plotting the longitudinal gene expression profiles (CircadianExpressionProfiles.py). When running the differential gene expression analysis, be sure to pair the ColData to the correct raw counts file.
 
-The "Code" folder contains the code for analyzing the data. 
+The "Figures" folder contains the figures generated for this project. This includes the PCA figure, all of the volcano plots for differential expression, the gene ontology figure, and the gene expression profiles.
 
-The "Figures" folder contains the figures generated for this project. So far, only one figure has been generated which comes from the Project_analysis.py file in the  "Code" folder.
+The "Results" folder contains the differential expression results from each pairwise comparison run in DiffExp_Analysis_R.R. These all show the genes and their corresponding log2 fold change and p values. There is also a table that summarizes the results of all comparisons neatly in one file.
 
-
-### Installation
-In order to run the code:
-1. Download the Project_analysis.py file from the "Code" folder
-2. Make sure that you have pandas, numpy, and matplotlib packages installed
-3. Download the input data file (RNAseq_Dataframe_Input) from the "Data" folder and make sure the file path in the code matches where the input data file is saved
-4. Run the code!
+The "GSEA_inputs" folder contains the two input files needed to run GSEA. These two files are the raw counts for the night vs. day 12 hour feeding groups as well as the phenotype labels. 
